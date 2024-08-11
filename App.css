@@ -1,0 +1,116 @@
+.nav-item{
+  color: rgb(255, 255, 255) ;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-weight: 500;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: transparent;
+}
+.cards-main{
+  background-color: rgb(64, 25, 25);
+  padding: 5px 5px;
+  margin: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(64, 25, 25);
+  
+}
+.hero-main{
+  display: flex;
+  justify-content: center;
+  
+}
+.welcome-message{
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  text-shadow: 2px 4px rgb(41, 66, 41);
+  text-align: center;
+  
+}
+.logo {
+  border-radius: 50%;
+  
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  background-image: url('../assets/logo.png');
+  background-size: contain; /* Resize to fit the container */
+  background-repeat: no-repeat; /* Prevent repetition */
+  background-position: center; /* Center the image */
+}
+.main-header{
+  background-color: transparent !important;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-main{
+  background-color: transparent;
+  color: white;
+  margin-top: 40px;
+}
+.back_main {
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+.main-form{
+  width: 500px;
+  border-radius: 10px;
+  height: auto;
+  background-color: white;
+  border: 2px solid grey;
+  margin: 10px 400px;
+  padding: 10px;
+  position: relative;
+}
+.form_label{
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Dark gray color */
+  margin-bottom: 8px;
+  text-align: left;
+  padding: 3px 20px;
+  margin-left: 10px;
+}
+.input_control{
+  width: 90%; /* Full width */
+    padding: 8px 12px; /* Padding inside the text box */
+    margin-bottom: 15px; /* Space below the text box */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Ensures padding doesn't add to the width */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Dark gray text */
+    background-color: #c9c7c7; /* White background */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+.fertilizerbox{
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  background-color: rgb(114, 113, 111);
+  margin-left: 400px;
+  box-shadow: 2px 2px blue;
+  border: 4px solid lightskyblue;
+  text-align: center;
+
+}
+.fertilizer-heading{
+  font-size: 40px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+}
